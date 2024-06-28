@@ -92,6 +92,15 @@ nav {
   height: 10%;
 }
 
+@media screen and (max-width : 700px ){
+  .home .game-card:hover {
+    -webkit-transform: scale(1);
+    -ms-transform: scale(1);
+    transform: scale(1);
+    -webkit-filter: grayscale(0);
+    filter: grayscale(0);
+  }
+}
 /***************************** Game-Details Styling *****************************/
 
 .game-details {
