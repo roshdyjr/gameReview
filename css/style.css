@@ -51,12 +51,6 @@ nav {
   transition: color 0.5s;
 }
 
-@media screen and (max-width : 576px ){
-  .navbar {
-    width: 90%;
-  }
-}
-
 /***************************** Home Styling *****************************/
 
 .game-card {
