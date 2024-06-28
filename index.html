@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Roshdy's Games</title>
+  <link rel="shortcut icon" href="imgs/2128559.png" type="image/x-icon">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navigation and Header Section -->
+  <section id="games" class="games">
+    <header>
+      <img src="imgs/wraper.png" alt="games background" class="w-100">
+    </header>
+  
+    <nav class="navbar navbar-expand-lg position-sticky col-md-6 col-lg-9">
+      <div class="container">
+        <h5 class="navbar-brand mb-0 text-uppercase text-white">
+          <img src="imgs/logo-sm.png" alt="games logo">
+          game reviews
+        </h5>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="small collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="small navbar-nav ms-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active">MMORPG</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">SHOOTER</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">SAILING</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">PERMADEATH</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">SUPERHERO</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">PIXEL</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </section>
+
+  <!-- Main Content Section -->
+  <main class="container my-5 home">
+    <div class="row game-row">
+    </div>
+  </main>
+
+  <!-- Game Details Section -->
+  <section class="game-details d-none">
+    <div class="container">
+      <header class="d-flex align-items-center justify-content-between">
+        <h1 class="py-5 h3">Game Details</h1>
+        <span><i class="fa-solid fa-xmark fs-4"></i></span>
+      </header>
+      <div class="row g-4 details-content">
+        <div class="col-md-4">
+          <img src="" alt="Game Thumbnail" class="img-fluid game-thumbnail">
+        </div>
+        <div class="col-md-8">
+          <h3 class="game-title"></h3>
+          <p>
+            Category: <span class="badge text-bg-info game-category"></span>
+          </p>
+          <p>
+            Platform: <span class="badge text-bg-info game-platform"></span>
+          </p>
+          <p>
+            Status: <span class="badge text-bg-info game-status"></span>
+          </p>
+          <p class="small game-description"></p>
+          <a class="btn btn-outline-warning game-link" target="_blank" href="">Show Game</a>
+        </div>
+      </div>
+    </div>
+  </section>
+  
+
+  <!-- Loading Indicator -->
+  <div class="loading d-flex align-items-center justify-content-center position-fixed d-none">
+    <div class="loader"></div>
+  </div>
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/index.js" type="module"></script>
+</body>
+</html>
